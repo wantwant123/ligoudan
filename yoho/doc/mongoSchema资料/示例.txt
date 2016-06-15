@@ -1,0 +1,47 @@
+有对象如下：
+{
+    username: "zhangsan",
+    password: "123456",
+    mobileNum: "18613333333",
+    sex: 1,
+    birthday: "1993-10-10",
+    registerTime: 14636364479,
+    isMember: true,//true是会员 false不是会员d
+    countryId: "11e12a343g5x63x42",//外键
+    heart: {
+        exist: false,//true还在 false不在
+        health: 1//0健康 1亚健康 2不健康 3患癌
+    },//单个对象
+    computers: ["11e12a343g5x63x42", "11e12a343g5x63x42"],//外键数组
+    fingers: [
+        {
+            type: "one",
+            exist: 1
+        },
+        {
+            type: "two",
+            exist: 1
+        }
+    ]//对象数组
+};
+
+它对应的模型如下：
+var UserSchema = {
+    username: ["string_must"],
+    password: ["string_must"],
+    mobileNum: ["string_not"],
+    sex: ["number_not"],//0男 1女
+    birthday: ["dateString_not"],//1995-05-10
+    registerTime: ["datetimeNumber_must"],
+    isMember: ["boolean_must"],//true是会员 false不是会员d
+    countryId: ["fkString_must"],//外键
+    heart: ["object_must", {
+        exist: ["boolean_must"],//true还在 false不在
+        health: ["number_must"]//0健康 1亚健康 2不健康 3患癌
+    }],//单个对象
+    computers: ["fkStringMany_must"],//外键数组
+    fingers: ["objectMany_not", {
+        type: ["string_must"],
+        exist: ["number_must"]//0没有 1还在
+    }]//对象数组
+};

@@ -1,0 +1,24 @@
+标准格式如下：
+var UserSchema = {
+	username: ["string_must"],
+	password: ["string_must"],
+	birthday: ["dateString_not"]
+};
+
+schema的json键值对中的值：
+1.必须写成数组格式：[]
+2.内容必须是字符串：["string_not"]
+3.内容必须是：数据类型_是否必须拥有
+	- 数据类型
+		- string 字符串
+		- boolean 布尔值
+		- number 数值，包括整型和浮点型
+		- dateString 日期字符串，格式必须是"1995-05-22"
+		- datetimeNumber 时间戳字符串，即从1970年到现在的毫秒数
+		- fkString 外键字符串，即其他对象的id
+		- object 包含对象
+		- fkStringMany 外键数组，即很多其他对象的id组成的数组
+		- objectMany 包含的很多对象
+4.关于not和must
+	- not表示该属性值可以为空，即null、undefined或没有该属性
+	- must表示必须有该属性值，并且不为undefined、null
