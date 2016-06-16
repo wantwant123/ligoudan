@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 0.2rem;
+  background:#444444 ;
+  font-family: MicroSoft YaHei,SimSun,sans-serif;
+  width: 100%;
+}
+.header{
+  width: 7.04rem;
+  height: 0.4rem;
+  color:white;
+  margin: auto;
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  line-height: 0.4rem;
+  position: relative;
+  img{
+    position: absolute;
+    display: block;
+    height: 0.4rem;
+    top: 0;
+    left: 0;
+  }
+}
+
+.container{
+  width: 7.04rem;
+  margin: auto;
+  .row{
+    width: 100%;
+    height: 0.5rem;
+    margin-bottom: 0.1rem;
+    border: 0.01rem solid #A2A2A2;
+    border-radius:0.1rem;
+    position: relative;
+  }
+
+  .selectCountries{
+    background: #575757;
+    color: white;
+  }
+  .selectTitle{
+    line-height: 2.5;
+    margin-left: 0.15rem;
+  }
+  .select{
+    position: absolute;
+    height: 0.5rem;
+    padding-right: 0.4rem;
+    right: 0;
+    color: white;
+    font-size: 0.2rem;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    direction: rtl;
+  }
+
+  .phoneNum{
+    background:#575757 ;
+    span{
+      position: absolute;
+      left: 0.15rem;
+      line-height: 2.5;
+      color: white;
+      font-size: 0.2rem;
+    }
+    input{
+      width: 100%;
+      height: 100%;
+      border-radius: 0.1rem;
+      color: gray;
+      background-color:#575757;
+      border: none;
+      outline: none;
+      text-indent: 0.7rem;
+      font-size: 0.2rem;
+    }
+  }
+
+  .nextStep{
+    background: #A2A2A2;
+    text-align: center;
+    line-height: 0.5rem;
+    color: white;
+  }
+}
+.footer{
+   color: white;
+   width: 7.04rem;
+   margin: auto;
+   height: 0.4rem;
+   text-align: center;
+   font-size: 0.15rem;
+ }

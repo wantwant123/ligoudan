@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:#444444 ;
+  font-family: MicroSoft YaHei,SimSun,sans-serif;
+  width: 100%;
+  font-size: 0.2rem;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+.container{
+  width: 6.7rem;
+  margin: auto;
+  overflow: hidden;
+
+  .header {
+    position: relative;
+    height: 0.4rem;
+    margin: 0.2rem 0 0.3rem;
+    .goBack {
+      display: block;
+      position: absolute;
+      height: 0.3rem;
+      width: 0.3rem;
+      top: 0.05rem;
+      left: 0;
+      background: url("../../../build/imgs/mobile/login/leftCircle.png") no-repeat;
+      background-size: 100% 100%;
+    }
+    .headerLogo{
+      width: 0.68rem;
+      height: 0.4rem;
+      background: url("../../../build/imgs/mobile/login/yoho-family.png") no-repeat;
+      background-size: 100% 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .row {
+    width: 6.68rem;
+    height: 0.5rem;
+    margin-bottom: 0.1rem;
+    border: 0.01rem solid transparent;
+    position: relative;
+  }
+  .acount{
+    .yohoLogo{
+      position: absolute;
+      height: 0.31rem;
+      width: 0.26rem;
+      background: url("../../../build/imgs/mobile/login/y.png");
+      background-size: 100% 100%;
+      top: 0.1rem;
+      left: 0.15rem;
+    }
+    input{
+      display: block;
+      width: 100%;
+      height:100%;
+      border: 0.01rem solid #A2A2A2;
+      border-radius:0.1rem;
+      outline: none;
+      text-indent: 0.6rem;
+      background: #575757;
+      font-size: 0.2rem;
+      color:white;
+    }
+  }
+  .code{
+    input{
+      display: block;
+      width: 100%;
+      height:100%;
+      border: 0.01rem solid #A2A2A2;
+      border-radius:0.1rem;
+      outline: none;
+      text-indent: 0.12rem;
+      background: #575757;
+      font-size: 0.2rem;
+      color:white;
+    }
+  }
+  .btn{
+    button{
+      display: block;
+      width: 100%;
+      height:100%;
+      border: 0.01rem solid #A2A2A2;
+      border-radius:0.1rem;
+      outline: none;
+      background: #A2A2A2;
+      font-size: 0.2rem;
+      color:white;
+    }
+  }
+  .attention{
+    width: 100%;
+    height: 0.25rem;
+    margin: 20px 0;
+    font-size: 0.16rem;
+    .freeRegiter{
+      display: block;
+      float: left;
+    }
+    .forgetCode{
+      display: block;
+      float: right;
+    }
+    a{
+      height: 0.25rem;
+      line-height: 0.25rem;
+      color: gray;
+      text-decoration: underline;
+    }
+  }
+  .links{
+    text-align: center;
+    padding: 20px 0;
+    a{
+      display: inline-block;
+      width: 0.44rem;
+      height: 0.44rem;
+      margin: 0 0.07rem;
+      border-radius: 50%;
+      background-color: #333;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .qq{
+      background-image: url("../../../build/imgs/mobile/login/qq.png");
+    }
+    .weibo{
+      background-image: url("../../../build/imgs/mobile/login/weibo.png");
+    }
+    .alipay{
+      background-image: url("../../../build/imgs/mobile/login/alipay.png");
+    }
+  }
+  .international{
+    display: block;
+    width: 2rem;
+    padding: 0.05rem 0.1rem;
+    background-color: #333;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    font-size: 0.16rem;
+    color: #d8d8d8;
+    text-align: center;
+  }
+  .loginTip{
+    font-size: 0.16rem;
+    position: relative;
+    color: #d8d8d8;
+    margin: 0.15rem 0;
+    text-align: center;
+  }
+}
