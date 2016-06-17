@@ -7,6 +7,21 @@ body{
   background:#444444 ;
   font-family: MicroSoft YaHei,SimSun,sans-serif;
   width: 100%;
+  position: relative;
+  #countries{
+    width: 7rem;
+    height: 5rem;
+    background: white;
+    position: absolute;
+    left:6.3%;
+    top: 0;
+    #main{
+      width: 6.6rem;
+      height: 4.6rem;
+      margin:0.2rem auto;
+      outline: 1px solid red;
+    }
+  }
 }
 .header{
   width: 7.04rem;
@@ -46,21 +61,30 @@ body{
   .selectTitle{
     line-height: 2.5;
     margin-left: 0.15rem;
+    display: block;
+    float: left;
   }
   .select{
-    position: absolute;
-    height: 0.5rem;
-    padding-right: 0.4rem;
-    right: 0;
-    color: white;
-    font-size: 0.2rem;
-    background-color: transparent;
-    border: 0;
-    outline: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    direction: rtl;
+    float: right;
+    height: 100%;
+    width: 1.5rem;
+    outline: 1px solid red;
+    line-height: 0.5rem;
+    position: relative;
+    .arrayRight{
+      height: 0.13rem;
+      width: 0.13rem;
+      border: 0.03rem solid ghostwhite;
+      position: absolute;
+      top: 0.17rem;
+      left: 0.85rem;
+      transform: rotate(-45deg);
+      border-top: transparent;
+      border-left: transparent;
+    }
+    span{
+      height: 100%;
+    }
   }
 
   .phoneNum{
@@ -89,7 +113,19 @@ body{
     background: #A2A2A2;
     text-align: center;
     line-height: 0.5rem;
+    position: relative;
     color: white;
+    #attention{
+      position: absolute;
+      width: 3rem;
+      height: 1rem;
+      top: 0.1rem;
+      left: 1.95rem;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 0.1rem;
+      line-height: 1rem;
+      display: none;
+    }
   }
 }
 .footer{

@@ -95,6 +95,18 @@ a {
       background: #A2A2A2;
       font-size: 0.2rem;
       color:white;
+      position: relative;
+      #attention{
+        position: absolute;
+        width: 3rem;
+        height: 1rem;
+        top: 0.1rem;
+        left: 1.95rem;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 0.1rem;
+        line-height: 1rem;
+        display: none;
+      }
     }
   }
   .attention{

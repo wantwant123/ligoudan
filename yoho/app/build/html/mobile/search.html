@@ -10,7 +10,15 @@
 <div class="search">
     搜索
     <div class="array_left"></div>
-    <img src="../../imgs/mobile/search/search_choice_03.gif" alt="">
+    <img src="../../imgs/mobile/search/search_choice_03.gif" alt="" id="select">
+</div>
+<div id="choices">
+    <ul>
+        <li>首页</li>
+        <li>分类</li>
+        <li>购物车</li>
+        <li>我的</li>
+    </ul>
 </div>
 <div class="input_bac">
     <div class="input_main">
@@ -33,5 +41,17 @@
     <!--<p class="footer_main"></p>-->
 </div>
 <script src="../../../src/js/common/searchRem.js"></script>
+<script src="../../../src/js/common/zepto.js"></script>
+<script>
+    var flag=false;
+    $("#select").click(function(){
+        flag=!flag;
+        if(flag){
+            $("#choices").css("display","block");
+        }else {
+            $("#choices").css("display", "none");
+        }
+    });
+</script>
 </body>
 </html>

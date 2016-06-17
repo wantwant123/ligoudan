@@ -32,6 +32,26 @@ body {
     top: 0.30rem;
     right: 0.36rem; }
 
+#choices {
+  width: 100%;
+  height: 0.95rem;
+  background: black;
+  border-top: 0.02rem solid gray;
+  display: none; }
+  #choices ul {
+    width: 6.8rem;
+    height: 0.4rem;
+    margin: 0.27rem auto; }
+    #choices ul li {
+      float: left;
+      list-style: none;
+      background: white;
+      width: 0.9rem;
+      height: 100%;
+      line-height: 0.4rem;
+      text-align: center;
+      margin: 0 0.4rem; }
+
 .input_bac {
   background: #F8F8F8;
   height: 0.95rem;

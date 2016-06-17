@@ -14,13 +14,16 @@
     </div>
     <div class="row acount">
         <div class="yohoLogo"></div>
-        <input type="text" placeholder="手机号/邮箱">
+        <input type="text" placeholder="手机号/邮箱" id="phoneNum">
     </div>
     <div class="row code">
-        <input type="text" placeholder="密码">
+        <input type="text" placeholder="密码" id="code">
     </div>
     <div class="row btn">
-        <button>登录</button>
+        <button id="login">
+            登录
+            <p id="attention">账号或密码有错误，请重新输入</p>
+        </button>
     </div>
     <p class="attention">
         <a href="#" class="freeRegiter">免费注册</a>
@@ -37,5 +40,17 @@
     </div>
 </div>
 <script src="../../../src/js/common/register.js"></script>
+<script src="../../../src/js/common/zepto.js"></script>
+<script>
+    $("#login").click(function(){
+            $("#attention").show();
+            setTimeout(function(){$("#attention").hide()},2000);
+    });
+    $("#code").keydown(function(){
+        if( $("#phoneNum").val().length>=0 && $("#code").val().length>=0){
+            $("#login").css("background","green");
+        }
+    })
+</script>
 </body>
 </html>

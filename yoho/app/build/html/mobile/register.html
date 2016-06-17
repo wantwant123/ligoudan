@@ -14,30 +14,54 @@
 <div class="container">
     <div class="selectCountries row">
         <span class="selectTitle">国家和地区</span>
-        <select class="select">
-            <option value="+61">澳大利亚</option>
-            <option value="+82">韩国</option>
-            <option value="+1">加拿大</option>
-            <option value="+60">马来西亚</option>
-            <option value="+1">美国</option>
-            <option value="+81">日本</option>
-            <option value="+65">新加坡</option>
-            <option value="+44">英国</option>
-            <option value="+86" selected="">中国</option>
-            <option value="+853">中国澳门</option>
-            <option value="+886">中国台湾</option>
-            <option value="+852">中国香港</option>
-        </select>
-        <!--<div class="arrow-right"></div>-->
+        <div class="select">
+             <span>澳大利亚</span>
+            <div class="arrayRight"></div>
+            <!--<option value="+61">澳大利亚</option>-->
+            <!--<option value="+82">韩国</option>-->
+            <!--<option value="+1">加拿大</option>-->
+            <!--<option value="+60">马来西亚</option>-->
+            <!--<option value="+1">美国</option>-->
+            <!--<option value="+81">日本</option>-->
+            <!--<option value="+65">新加坡</option>-->
+            <!--<option value="+44">英国</option>-->
+            <!--<option value="+86" selected="">中国</option>-->
+            <!--<option value="+853">中国澳门</option>-->
+            <!--<option value="+886">中国台湾</option>-->
+            <!--<option value="+852">中国香港</option>-->
+        </div>
     </div>
     <div class="phoneNum row">
          <span>+86</span>
-        <input type="text" placeholder="手机号">
+        <input type="text" placeholder="手机号" id="phoneNum">
     </div>
-    <div class="nextStep row">下一步</div>
+    <div class="nextStep row" id="nextStep">
+        下一步
+        <p id="attention">手机格式不正确，请重新输入</p>
+    </div>
 </div>
 <p class="footer">YOHO!Family账号可登录Yoho!Buy有货、YOHO!Boys、YOHO!Girls及SHOW</p>
 <script src="../../../src/js/common/register.js"></script>
 <script src="../../../src/js/common/zepto.js"></script>
+<script>
+$("#nextStep").click(function(){
+        var reg=/^(13|15|18)[0-9]{9}$/;
+        var valNum=$("#phoneNum").val();
+        if(!reg.test(valNum)){
+            $("#attention").show();
+            setTimeout(function(){$("#attention").hide()},2000);
+        }else{
+            alert("手机号码正确");
+        }
+    });
+$("#phoneNum").keydown(function(){
+    if( $("#phoneNum").val().length>=0){
+        $("#nextStep").css("background","green");
+    }
+})
+</script>
+<div id="countries">
+<div id="main"></div>
+</div>
 </body>
 </html>
