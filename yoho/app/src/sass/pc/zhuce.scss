@@ -1,0 +1,346 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: arial,Microsoft YaHei;
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+
+.header-center{
+  width: 990px;
+  height: 70px;
+  margin: auto;
+  overflow: hidden;
+}
+.header-center-left{
+  padding: 13px 0 13px 0;
+  float: left;
+  height: 40px;
+}
+.header-center-right{
+  padding: 13px 0 13px 0;
+  float: right;
+  //background: red;
+  //width: 450px;
+  height: 40px;
+  ul{
+    line-height: 40px;
+  }
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.header-center-right li{
+  list-style: none;
+  float: left;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.header-border{
+  background-color: #343434;
+  height: 2px;
+}
+
+
+
+
+
+.contentBox{
+  height: 652px;
+  width: 100%;
+  overflow: hidden;
+  .content{
+    width: 1150px;
+    height: 420px;
+    //border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 126px;
+    .contentLeft{
+      width: 576px;
+      height: 420px;
+      border-right: 1px solid #DFDFDF;
+      background: url("../../../build/imgs/01d6de51478568c85565f9d0ecd97df976.jpg") no-repeat ;
+      background-position: 163px 100px;
+      float: left;
+    }
+
+    .contentRight{
+      width: 493px;
+      height: 495px;
+      //border: 1px solid red;
+      float: right;
+      .menu{
+        width: 490px;
+        height: 31px;
+
+        select{
+          width: 130px;
+          outline: none;
+          height: 30px;
+          color: #A9A9A9;
+        }
+      }
+      .mobile{
+        width: 490px;
+        height: 46px;
+        margin-top: 24px;
+        .mobile-1{
+          width: 60px;
+          height: 44px;
+          border: 1px solid  #A9A9A9;
+          float: left;
+          border-right: transparent;
+          p{
+            text-align: center;
+            line-height: 44px;
+            color: #A9A9A9;
+          }
+        }
+        input{
+          width: 207px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+        }
+      }
+      .validation-1{
+        width: 490px;
+        height: 46px;
+
+        margin-top: 25px;
+        input{
+          width: 160px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+          float: left;
+        }
+        .validationImgs{
+          width: 100px;
+          height: 46px;
+          float: left;
+          margin-left: 7px;
+        }
+        a{
+          text-decoration: underline;
+          color: red;
+          line-height: 46px;
+          margin-left: 5px;
+        }
+      }
+      .validation-2{
+        width: 490px;
+        height: 46px;
+        margin-top: 25px;
+        input{
+          width: 160px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+        }
+        button{
+          width: 100px;
+          height: 46px;
+          font-size: 12px;
+          outline: none;
+          background-color: #555555;
+          border: none;
+          color: white;
+          margin-left: 3px;
+        }
+      }
+      .passwordBar{
+        width: 490px;
+        height: 71px;
+        margin-top: 25px;
+        input{
+          width: 268px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+        }
+        .passwordBar-1{
+          width: 105px;
+          height: 17px;
+          margin-left: 167px;
+          margin-top: 8px;
+          span{
+            display: inline-block;
+            width: 32px;
+            height: 17px;
+            background-color: #E8E8E8;
+            text-align: center;
+            color: #acacac;
+            line-height: 18px;
+            font-size: 14px;
+          }
+        }
+      }
+      .checkBox{
+        margin-top: 27px;
+        font-size: 12px;
+        color: #aaaaaa;
+        input{
+          vertical-align: middle;
+          margin-left: 12px;
+        }
+        a{
+          color: red;
+          text-decoration: underline;
+        }
+      }
+      .registerBut{
+        width: 490px;
+        height: 47px;
+        margin-top: 25px;
+        button{
+          width: 270px;
+          height: 47px;
+          background-color: #555555;
+          outline: none;
+          border: none;
+          color: white;
+          font-size: 20px;
+        }
+      }
+      .loginA{
+        margin-top: 23px;
+        font-size: 12px;
+        color: #aaaaaa;
+        margin-left: 78px;
+        a{
+          text-decoration: underline;
+          color: red;
+
+        }
+      }
+    }
+  }
+}
+
+
+
+//yoho 页尾
+.footer{
+  width: 100%;
+  height: 295px;
+  font-size: 12px;
+  color: #666666;
+  background: #000000;
+  overflow: hidden;
+  //页尾内容
+  .footerContent{
+    width: 1150px;
+    height: 295px;
+    //border: 1px solid white;
+    margin: 0 auto;
+    //页尾 内容上
+    .top{
+      //width: 1150px;
+      height: 65px;
+      border-bottom: 1px solid #262626;
+      .left{
+        width: 135px;
+        height: 28px;
+        margin-top: 19px;
+        font-weight: 700;
+        float: left;
+        margin-right: 60px;
+        img{
+          display: inline-block;
+          float: left;
+        }
+        .red{
+          color: #e01;
+          display: inline-block;
+          line-height: 30px;
+          margin: 0 5px 0 10px;
+          float: left
+        }
+        .rgbf{
+          color: white;
+          line-height: 30px
+        }
+      }
+      .right{
+        width: 240px;
+        height: 30px;
+        float: right;
+        border: 1px solid #262626;
+        margin-top: 17px;
+        input{
+          border: none;
+          outline: none;
+          width: 200px;
+          height: 28px;
+          color: #666666;
+          padding-left: 10px;
+          background: black;
+        }
+        img{
+          vertical-align: middle;
+
+        }
+      }
+    }
+    //页尾 内容中
+    .center{
+      height: 150px;
+      overflow: hidden;
+      margin: 5px 0 10px;
+      ul{
+        padding: 0;
+        margin-right: 113px;
+        float: left;
+        li{
+          list-style: none;
+          line-height: 25px;
+          color: white;
+          a{
+            color: #666666;
+          }
+        }
+      }
+    }
+    //页尾 内容末
+    .bottom{
+      height: 64px;
+      .isc{
+        width: 195px;
+        float: left;
+        img{
+          padding-right: 5px;
+        }
+      }
+      .bottomRight{
+        float: left;
+        .nav{
+          padding: 0;
+          a{
+            color: #666666;
+          }
+          span{
+            padding: 0 15px;
+            color: #666666;
+          }
+        }
+        p{
+          margin: 0;
+          line-height: 25px;
+          a{
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
+}

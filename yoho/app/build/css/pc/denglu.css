@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: arial,Microsoft YaHei; }
+  body a {
+    text-decoration: none; }
+  body a:hover {
+    text-decoration: underline; }
+
+.header-center {
+  width: 990px;
+  height: 70px;
+  margin: auto;
+  overflow: hidden; }
+
+.header-center-left {
+  padding: 13px 0 13px 0;
+  float: left;
+  height: 40px; }
+
+.header-center-right {
+  padding: 13px 0 13px 0;
+  float: right;
+  height: 40px; }
+  .header-center-right ul {
+    line-height: 40px; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.header-center-right li {
+  list-style: none;
+  float: left;
+  font-size: 14px;
+  margin-left: 20px; }
+
+.header-border {
+  background-color: #343434;
+  height: 2px; }
+
+.contentBox {
+  height: 652px;
+  width: 100%;
+  overflow: hidden; }
+  .contentBox .content {
+    width: 1150px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 126px; }
+    .contentBox .content .contentLeft {
+      width: 576px;
+      height: 420px;
+      border-right: 1px solid #DFDFDF;
+      background: url("../../../build/imgs/01d6de51478568c85565f9d0ecd97df976.jpg") no-repeat;
+      background-position: 163px 100px;
+      float: left; }
+    .contentBox .content .contentRight {
+      width: 493px;
+      height: 420px;
+      float: right;
+      position: relative; }
+      .contentBox .content .contentRight .contentRightjiao {
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        border: 2px solid #B9B9B9;
+        border-left: transparent;
+        border-top: transparent;
+        transform: rotate(45deg);
+        top: 10px;
+        left: 261px; }
+      .contentBox .content .contentRight p a {
+        text-decoration: none;
+        margin-left: 120px;
+        color: #B9B9B9;
+        font-size: 14px; }
+      .contentBox .content .contentRight .loginBar {
+        width: 493px;
+        height: 49px;
+        margin-top: 26px; }
+        .contentBox .content .contentRight .loginBar input {
+          width: 268px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+          border: 1px solid #B9B9B9; }
+      .contentBox .content .contentRight .passwordBar {
+        width: 493px;
+        height: 49px;
+        margin-top: 24px; }
+        .contentBox .content .contentRight .passwordBar input {
+          width: 268px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+          border: 1px solid #B9B9B9; }
+      .contentBox .content .contentRight .loginBut {
+        width: 493px;
+        height: 49px;
+        margin-top: 24px; }
+        .contentBox .content .contentRight .loginBut button {
+          width: 270px;
+          height: 47px;
+          background-color: #FF1901;
+          border: none;
+          outline: none;
+          color: white;
+          font-size: 22px;
+          font-weight: 600; }
+      .contentBox .content .contentRight .checkBox {
+        width: 270px;
+        height: 16px;
+        margin-top: 24px;
+        font-size: 14px; }
+        .contentBox .content .contentRight .checkBox input {
+          width: 15px;
+          height: 15px;
+          border: 1px solid  #B9B9B9;
+          text-align: center;
+          vertical-align: middle; }
+        .contentBox .content .contentRight .checkBox span {
+          font-size: 14px;
+          color: #B9B9B9; }
+        .contentBox .content .contentRight .checkBox a {
+          text-decoration: none;
+          font-size: 13px; }
+      .contentBox .content .contentRight .xb {
+        width: 272px;
+        height: 32px;
+        margin-top: 24px; }
+        .contentBox .content .contentRight .xb .xbA {
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 8px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -95px 63px; }
+        .contentBox .content .contentRight .xb .xbB {
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -127px 63px; }
+        .contentBox .content .contentRight .xb .xbC {
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: 1px 63px; }
+        .contentBox .content .contentRight .xb .xbD {
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -158px 32px; }
+        .contentBox .content .contentRight .xb .xbE {
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -223px 63px; }
+        .contentBox .content .contentRight .xb .xbF {
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -191px 63px; }
+
+.footer {
+  width: 100%;
+  height: 295px;
+  font-size: 12px;
+  color: #666666;
+  background: #000000;
+  overflow: hidden; }
+  .footer .footerContent {
+    width: 1150px;
+    height: 295px;
+    margin: 0 auto; }
+    .footer .footerContent .top {
+      height: 65px;
+      border-bottom: 1px solid #262626; }
+      .footer .footerContent .top .left {
+        width: 135px;
+        height: 28px;
+        margin-top: 19px;
+        font-weight: 700;
+        float: left;
+        margin-right: 60px; }
+        .footer .footerContent .top .left img {
+          display: inline-block;
+          float: left; }
+        .footer .footerContent .top .left .red {
+          color: #e01;
+          display: inline-block;
+          line-height: 30px;
+          margin: 0 5px 0 10px;
+          float: left; }
+        .footer .footerContent .top .left .rgbf {
+          color: white;
+          line-height: 30px; }
+      .footer .footerContent .top .right {
+        width: 240px;
+        height: 30px;
+        float: right;
+        border: 1px solid #262626;
+        margin-top: 17px; }
+        .footer .footerContent .top .right input {
+          border: none;
+          outline: none;
+          width: 200px;
+          height: 28px;
+          color: #666666;
+          padding-left: 10px;
+          background: black; }
+        .footer .footerContent .top .right img {
+          vertical-align: middle; }
+    .footer .footerContent .center {
+      height: 150px;
+      overflow: hidden;
+      margin: 5px 0 10px; }
+      .footer .footerContent .center ul {
+        padding: 0;
+        margin-right: 113px;
+        float: left; }
+        .footer .footerContent .center ul li {
+          list-style: none;
+          line-height: 25px;
+          color: white; }
+          .footer .footerContent .center ul li a {
+            color: #666666; }
+    .footer .footerContent .bottom {
+      height: 64px; }
+      .footer .footerContent .bottom .isc {
+        width: 195px;
+        float: left; }
+        .footer .footerContent .bottom .isc img {
+          padding-right: 5px; }
+      .footer .footerContent .bottom .bottomRight {
+        float: left; }
+        .footer .footerContent .bottom .bottomRight .nav {
+          padding: 0; }
+          .footer .footerContent .bottom .bottomRight .nav a {
+            color: #666666; }
+          .footer .footerContent .bottom .bottomRight .nav span {
+            padding: 0 15px;
+            color: #666666; }
+        .footer .footerContent .bottom .bottomRight p {
+          margin: 0;
+          line-height: 25px; }
+          .footer .footerContent .bottom .bottomRight p a {
+            color: #666666; }
