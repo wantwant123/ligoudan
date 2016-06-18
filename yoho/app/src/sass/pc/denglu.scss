@@ -1,0 +1,333 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: arial,Microsoft YaHei;
+
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+//内容
+.header-center{
+  width: 990px;
+  height: 70px;
+  margin: auto;
+  overflow: hidden;
+}
+.header-center-left{
+  padding: 13px 0 13px 0;
+  float: left;
+  height: 40px;
+}
+.header-center-right{
+  padding: 13px 0 13px 0;
+  float: right;
+  //background: red;
+  //width: 450px;
+  height: 40px;
+  ul{
+    line-height: 40px;
+  }
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.header-center-right li{
+  list-style: none;
+  float: left;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.header-border{
+  background-color: #343434;
+  height: 2px;
+}
+
+
+
+
+
+.contentBox{
+  height: 652px;
+  width: 100%;
+  overflow: hidden;
+  .content{
+    width: 1150px;
+    height: 420px;
+    //border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 126px;
+    .contentLeft{
+      width: 576px;
+      height: 420px;
+      border-right: 1px solid #DFDFDF;
+      background: url("../../../build/imgs/01d6de51478568c85565f9d0ecd97df976.jpg") no-repeat ;
+      background-position: 163px 100px;
+      float: left;
+    }
+    .contentRight{
+      width: 493px;
+      height: 420px;
+      //border: 1px solid black;
+      float: right;
+      position: relative;
+      .contentRightjiao{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        border: 2px solid #B9B9B9;
+        border-left: transparent;
+        border-top:transparent ;
+        transform:rotate(45deg);
+        top: 10px;
+        left: 261px;
+      }
+      p a{
+        text-decoration: none;
+        margin-left: 120px;
+        color: #B9B9B9;
+        font-size: 14px;
+      }
+      .loginBar{
+         width: 493px;
+        height: 49px;
+        margin-top: 26px;
+        input{
+          width: 268px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+          border: 1px solid #B9B9B9;
+        }
+      }
+      .passwordBar{
+        width: 493px;
+        height: 49px;
+        margin-top: 24px;
+        input{
+          width: 268px;
+          height: 42px;
+          outline: none;
+          text-indent: 12px;
+          border: 1px solid #B9B9B9;
+        }
+      }
+      .loginBut{
+        width: 493px;
+        height: 49px;
+        margin-top: 24px;
+        button{
+          width: 270px;
+          height: 47px;
+          background-color: #FF1901;
+          border: none;
+          outline: none;
+          color: white;
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+      .checkBox{
+        width: 270px;
+        height: 16px;
+        margin-top: 24px;
+        font-size: 14px;
+
+        input{
+          width: 15px;
+          height: 15px;
+          border: 1px solid  #B9B9B9;
+          text-align: center;
+          vertical-align: middle;
+        }
+        span{
+          font-size: 14px;
+          color:  #B9B9B9;
+        }
+        a{
+          text-decoration: none;
+          font-size: 13px;
+        }
+      }
+      .xb{
+        width: 272px;
+        height: 32px;
+        margin-top: 24px;
+        .xbA{
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 8px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -95px 63px;
+        }
+        .xbB{
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -127px 63px;
+        }
+        .xbC{
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: 1px 63px;
+        }
+        .xbD{
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -158px 32px;
+        }
+        .xbE{
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -223px 63px;
+        }
+        .xbF{
+          width: 32px;
+          height: 32px;
+          float: left;
+          margin-left: 14px;
+          background: url("../../../build/imgs/sprite.passport.png");
+          background-position: -191px 63px;
+        }
+      }
+    }
+  }
+}
+
+
+
+//yoho 页尾
+.footer{
+  width: 100%;
+  height: 295px;
+  font-size: 12px;
+  color: #666666;
+  background: #000000;
+  overflow: hidden;
+  //页尾内容
+  .footerContent{
+    width: 1150px;
+    height: 295px;
+    //border: 1px solid white;
+    margin: 0 auto;
+    //页尾 内容上
+    .top{
+      //width: 1150px;
+      height: 65px;
+      border-bottom: 1px solid #262626;
+      .left{
+        width: 135px;
+        height: 28px;
+        margin-top: 19px;
+        font-weight: 700;
+        float: left;
+        margin-right: 60px;
+        img{
+          display: inline-block;
+          float: left;
+        }
+        .red{
+          color: #e01;
+          display: inline-block;
+          line-height: 30px;
+          margin: 0 5px 0 10px;
+          float: left
+        }
+        .rgbf{
+          color: white;
+          line-height: 30px
+        }
+      }
+      .right{
+        width: 240px;
+        height: 30px;
+        float: right;
+        border: 1px solid #262626;
+        margin-top: 17px;
+        input{
+          border: none;
+          outline: none;
+          width: 200px;
+          height: 28px;
+          color: #666666;
+          padding-left: 10px;
+          background: black;
+        }
+        img{
+          vertical-align: middle;
+
+        }
+      }
+    }
+    //页尾 内容中
+    .center{
+      height: 150px;
+      overflow: hidden;
+      margin: 5px 0 10px;
+      ul{
+        padding: 0;
+        margin-right: 113px;
+        float: left;
+        li{
+          list-style: none;
+          line-height: 25px;
+          color: white;
+          a{
+            color: #666666;
+          }
+        }
+      }
+    }
+    //页尾 内容末
+    .bottom{
+      height: 64px;
+      .isc{
+        width: 195px;
+        float: left;
+        img{
+          padding-right: 5px;
+        }
+      }
+      .bottomRight{
+        float: left;
+        .nav{
+          padding: 0;
+          a{
+            color: #666666;
+          }
+          span{
+            padding: 0 15px;
+            color: #666666;
+          }
+        }
+        p{
+          margin: 0;
+          line-height: 25px;
+          a{
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
+}

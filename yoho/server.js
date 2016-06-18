@@ -11,6 +11,8 @@ var session = require("koa-session");
 var mongo = require("koa-mongo");
 var mongoConn = require(__dirname + "/lib/common/mongoConn");
 var readFile = require(__dirname + "/lib/common/readFile");
+var ManageRouter = require(__dirname + "/lib/router/manage/ManageRouter");
+var loadRouter = require(__dirname + "/lib/router/manage/loadRouter");
 var app = koa();
 
 /**为服务器开启监听*/
@@ -41,5 +43,6 @@ app.use(mongo({//设置数据库
     timeout: mongoConfig.timeout
 }));
 app.use(router.routes());//设置路由
-
+ManageRouter(router);
+loadRouter(router);
 /**路由*/
