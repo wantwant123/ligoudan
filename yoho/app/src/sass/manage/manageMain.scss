@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+  width: 100%;
+  min-width: 1100px;
+  overflow: hidden;
+  .header{
+    width: 1098px;
+    height: 68px;
+    border: 1px solid #EBEBEB;
+    margin: 0 auto;
+  }
+  .container{
+    width: 1100px;
+    height: 610px;
+    margin: 0 auto;
+    .left{
+      width: 240px;
+      height: 610px;
+      float: left;
+      color: #A8A8A8;
+      background: #32323A;
+      text-align: center;
+      font-weight: bold;
+      li{
+        list-style: none;
+        span{
+          display: inline-block;
+          width: 240px;
+          height: 40px;
+          line-height: 40px;
+          cursor: pointer;
+          color: #26A8E2;
+          border-top: 1px solid #36363E;
+          border-bottom: 1px solid #2C2D34;
+        }
+       span:hover{
+          cursor: pointer;
+          background: #26A8E2;
+          color: #fff;
+        }
+      }
+      .users{
+        width: 100%;
+        height: 150px;
+        line-height: 50px;
+        border-bottom: 1px solid #2C2D34;
+        p{
+          height: 50px;
+        }
+      }
+      .current{
+        background: #26A8E2;
+        color: #fff;
+      }
+      .goods{
+        width: 100%;
+        height: 150px;
+        line-height: 50px;
+        border-top: 1px solid #36363E;
+        border-bottom: 1px solid #2C2D34;
+      }
+      .orders{
+        width: 100%;
+        height: 150px;
+        line-height: 50px;
+        border-top: 1px solid #36363E;
+        border-bottom: 1px solid #2C2D34;
+      }
+    }
+    .right{
+      width: 860px;
+      height: 610px;
+      float: left;
+      background: #F7F7F7;
+      .rTop{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background: #EDEDED;
+        img{
+          margin-left: 15px;
+        }
+      }
+      .rCont{
+        .rHead{
+          width: 100%;
+          height: 100px;
+        }
+        table{
+          border-collapse: collapse;
+        }
+        tr{
+          height: 40px;
+          border: 1px solid #bcbcbc;
+          td{
+            width: 142px;
+            text-align: center;
+            border: 1px solid #bcbcbc;
+          }
+        }
+        .page{
+          width: 100%;
+          height: 25px;
+          line-height: 23px;
+          text-align: center;
+          margin-top: 35px;
+          color: #79C6EA;
+          button{
+            height: 25px;
+            line-height: 23px;
+            border: 1px solid #79C6EA;
+            background: #F6F6F6;
+            border-radius: 3px;
+          }
+          span{
+            display: inline-block;
+            width: 25px;
+            height: 23px;
+            line-height: 23px;
+            border: 1px solid #79C6EA;
+            background: #F6F6F6;
+            border-radius: 3px;
+            vertical-align: 1px;
+          }
+          .curr{
+            background: #79C6EA;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
