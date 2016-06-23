@@ -265,6 +265,8 @@ body {
               border: 3px solid #222222;
               float: left;
               margin-top: 20px; }
+              .content .content_centre .content_cnt .content_right .price_btn .colour span img {
+                height: 100%; }
           .content .content_centre .content_cnt .content_right .price_btn .size {
             width: 470px;
             height: 26px;
@@ -289,7 +291,7 @@ body {
               display: inline-block;
               width: 60px;
               height: 26px;
-              background-image: url("../../../build/imgs/commodityimg/01288e4be985c3b5a143d703e2aa678aef.jpg");
+              background-image: url("../../imgs/commodityimg/01288e4be985c3b5a143d703e2aa678aef.jpg");
               line-height: 26px;
               color: #999999;
               font-size: 12px;
@@ -307,7 +309,8 @@ body {
             .content .content_centre .content_cnt .content_right .price_btn .quantity .num_minus {
               width: 55px;
               height: 25px;
-              margin-top: 12px;
+              margin-top: -38px;
+              margin-left: 60px;
               float: left; }
             .content .content_centre .content_cnt .content_right .price_btn .quantity .num {
               display: inline-block;
@@ -398,25 +401,25 @@ body {
               margin-left: 5px;
               cursor: pointer; }
             .content .content_centre .content_cnt .content_right .price_btn .share .share_s .weibo {
-              background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+              background-image: url("../../imgs/commodityimg/sprite.share.png");
               background-position: 0 0; }
             .content .content_centre .content_cnt .content_right .price_btn .share .share_s .weixin {
-              background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+              background-image: url("../../imgs/commodityimg/sprite.share.png");
               background-position: 0 -36px; }
             .content .content_centre .content_cnt .content_right .price_btn .share .share_s .tweibo {
-              background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+              background-image: url("../../imgs/commodityimg/sprite.share.png");
               background-position: -18px 0; }
             .content .content_centre .content_cnt .content_right .price_btn .share .share_s .qzone {
-              background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+              background-image: url("../../imgs/commodityimg/sprite.share.png");
               background-position: -18px -18px; }
             .content .content_centre .content_cnt .content_right .price_btn .share .share_s .qq {
-              background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+              background-image: url("../../imgs/commodityimg/sprite.share.png");
               background-position: -36px 0; }
             .content .content_centre .content_cnt .content_right .price_btn .share .share_s .renren {
-              background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+              background-image: url("../../imgs/commodityimg/sprite.share.png");
               background-position: 0 -18px; }
             .content .content_centre .content_cnt .content_right .price_btn .share .share_s .douban {
-              background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+              background-image: url("../../imgs/commodityimg/sprite.share.png");
               background-position: -36px -18px; }
   .content .content_info {
     width: 1152px;

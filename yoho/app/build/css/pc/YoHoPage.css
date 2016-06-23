@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: arial, Microsoft YaHei; }
+  body a {
+    text-decoration: none; }
+  body ul > li {
+    list-style: none; }
+
+.header {
+  width: 100%;
+  height: 165px;
+  font-size: 12px; }
+  .header .top {
+    background: #f4f4f4;
+    height: 35px; }
+    .header .top .on {
+      width: 1150px;
+      height: 35px;
+      margin: 0 auto; }
+      .header .top .on .onLeft {
+        width: 88px;
+        height: 33px;
+        float: left;
+        vertical-align: middle; }
+        .header .top .on .onLeft img {
+          display: inline-block;
+          float: left;
+          margin-top: 9px; }
+        .header .top .on .onLeft span {
+          line-height: 36px;
+          padding-left: 5px; }
+      .header .top .on .on_right {
+        width: 540px;
+        height: 35px;
+        float: right; }
+        .header .top .on .on_right ul li {
+          float: left;
+          line-height: 35px; }
+          .header .top .on .on_right ul li a {
+            color: #8E8E8E;
+            display: inline-block;
+            float: left; }
+          .header .top .on .on_right ul li img {
+            display: inline-block;
+            margin-top: 8px;
+            float: left; }
+          .header .top .on .on_right ul li p {
+            float: left; }
+          .header .top .on .on_right ul li span {
+            color: #8E8E8E;
+            padding: 0 10px; }
+  .header .nav {
+    width: 1150px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative; }
+    .header .nav .navBox {
+      width: 380px;
+      position: absolute;
+      left: 0;
+      bottom: 0; }
+      .header .nav .navBox .channel .boys {
+        padding: 8px 24px;
+        color: white;
+        background: #3A3A3A;
+        margin-right: 15px;
+        float: left;
+        text-align: center; }
+        .header .nav .navBox .channel .boys p {
+          font-size: 16px;
+          font-weight: 700; }
+      .header .nav .navBox .channel .girls {
+        padding: 8px 20px;
+        text-align: center;
+        float: left; }
+        .header .nav .navBox .channel .girls p {
+          font-size: 16px;
+          font-weight: 700; }
+    .header .nav .logo {
+      position: absolute;
+      top: 30px;
+      left: 500px; }
+    .header .nav .input {
+      width: 390px;
+      height: 30px;
+      position: absolute;
+      top: 45px;
+      right: 0; }
+      .header .nav .input input {
+        width: 230px;
+        height: 28px;
+        border: 1px solid #3A3A3A;
+        outline: none;
+        padding-left: 10px;
+        float: left; }
+      .header .nav .input span {
+        width: 80px;
+        height: 30px;
+        display: inline-block;
+        background: #3A3A3A;
+        float: left; }
+  .header .navOne {
+    width: 100%;
+    height: 40px;
+    background: #3A3A3A; }
+    .header .navOne .navigatorBars {
+      width: 1150px;
+      height: 40px;
+      margin: 0 auto; }
+      .header .navOne .navigatorBars ul > li {
+        float: left;
+        line-height: 40px;
+        margin-right: 80px; }
+        .header .navOne .navigatorBars ul > li a {
+          font-size: 14px;
+          color: white;
+          padding: 3px; }
+        .header .navOne .navigatorBars ul > li :hover {
+          text-decoration: none;
+          border-bottom: 2px solid white; }
+
+.yohoContent {
+  width: 1150px;
+  margin: 10px auto 0; }
+  .yohoContent .lunBo {
+    height: 510px; }
+    .yohoContent .lunBo .photoBig {
+      height: 450px; }
+    .yohoContent .lunBo .photoSmall {
+      height: 54px;
+      margin-top: 6px; }
+      .yohoContent .lunBo .photoSmall div {
+        width: 137px;
+        height: 55px;
+        margin-right: 7.8px;
+        float: left; }
+        .yohoContent .lunBo .photoSmall div img {
+          width: 137px;
+          height: 55px; }
+  .yohoContent .popularity {
+    height: 795px;
+    padding: 1px; }
+    .yohoContent .popularity .title {
+      margin: 80px 0 40px; }
+      .yohoContent .popularity .title p {
+        margin: 0 auto;
+        width: 298px;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #000;
+        text-align: center; }
+    .yohoContent .popularity .photo {
+      height: 642px; }
+      .yohoContent .popularity .photo .photoTop {
+        height: 256px; }
+        .yohoContent .popularity .photo .photoTop div {
+          width: 185px;
+          height: 248px;
+          float: left;
+          margin-right: 8px; }
+      .yohoContent .popularity .photo .photoBottom {
+        height: 130px; }
+  .yohoContent .excellent {
+    height: 610px;
+    padding: 1px; }
+    .yohoContent .excellent .title {
+      margin: 80px 0 40px; }
+      .yohoContent .excellent .title p {
+        margin: 0 auto;
+        width: 298px;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #000;
+        text-align: center; }
+    .yohoContent .excellent .img-brand {
+      height: 175px;
+      overflow: hidden; }
+      .yohoContent .excellent .img-brand ul {
+        overflow: hidden; }
+        .yohoContent .excellent .img-brand ul li {
+          width: 378px;
+          height: 175px;
+          margin-right: 8.2px;
+          float: left; }
+    .yohoContent .excellent .logos-20 {
+      height: 282px;
+      margin-top: 4px; }
+      .yohoContent .excellent .logos-20 img {
+        width: 185px;
+        padding: 4px 3.8px 0 0; }
+  .yohoContent .new {
+    height: 793px;
+    padding: 1px; }
+    .yohoContent .new .title {
+      margin: 80px 0 40px; }
+      .yohoContent .new .title p {
+        margin: 0 auto;
+        width: 298px;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #000;
+        text-align: center; }
+    .yohoContent .new .photo {
+      height: 640px; }
+      .yohoContent .new .photo .top {
+        height: 504px; }
+        .yohoContent .new .photo .top .left {
+          width: 282px;
+          height: 504px;
+          margin-right: 8px;
+          float: left;
+          outline: 1px solid red; }
+        .yohoContent .new .photo .top .center {
+          width: 570px;
+          height: 504px;
+          float: left; }
+          .yohoContent .new .photo .top .center .one {
+            height: 248px;
+            margin-bottom: 8px; }
+            .yohoContent .new .photo .top .center .one div {
+              width: 184px;
+              height: 248px;
+              float: left;
+              outline: 1px solid red; }
+          .yohoContent .new .photo .top .center .two div {
+            width: 184px;
+            height: 248px;
+            float: left;
+            outline: 1px solid red; }
+        .yohoContent .new .photo .top .right {
+          width: 282px;
+          height: 504px;
+          float: right;
+          outline: 1px solid red; }
+      .yohoContent .new .photo .bottom {
+        height: 130px;
+        margin-top: 8px;
+        outline: 1px solid red; }
+  .yohoContent .damp {
+    height: 965px;
+    padding: 1px; }
+    .yohoContent .damp .title {
+      margin: 80px 0 40px; }
+      .yohoContent .damp .title p {
+        margin: 0 auto;
+        width: 298px;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #000;
+        text-align: center; }
+    .yohoContent .damp .photo {
+      height: 812px; }
+      .yohoContent .damp .photo .top {
+        height: 506px; }
+        .yohoContent .damp .photo .top .left {
+          width: 185px;
+          margin-right: 7px;
+          float: left; }
+          .yohoContent .damp .photo .top .left .one {
+            height: 152px;
+            outline: 1px solid red; }
+          .yohoContent .damp .photo .top .left .two {
+            height: 86px;
+            margin: 10px 0;
+            outline: 1px solid red; }
+          .yohoContent .damp .photo .top .left .three {
+            height: 248px;
+            background: #F8F8F8; }
+            .yohoContent .damp .photo .top .left .three p {
+              padding-top: 10px; }
+              .yohoContent .damp .photo .top .left .three p a {
+                display: inline-block;
+                width: 92.5px;
+                height: 38px;
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                line-height: 38px;
+                float: left; }
+        .yohoContent .damp .photo .top .right {
+          float: left; }
+          .yohoContent .damp .photo .top .right .TP {
+            height: 248px; }
+            .yohoContent .damp .photo .top .right .TP div {
+              width: 186px;
+              height: 248px;
+              float: left;
+              margin-right: 7px;
+              outline: 1px solid red; }
+      .yohoContent .damp .photo .bottom {
+        height: 298px;
+        margin-top: 9px; }
+        .yohoContent .damp .photo .bottom div {
+          width: 222px;
+          height: 298px;
+          margin-right: 9.8px;
+          float: left;
+          outline: 1px solid red; }
+  .yohoContent .putaway {
+    padding: 1px; }
+    .yohoContent .putaway .title {
+      margin: 80px 0 40px; }
+      .yohoContent .putaway .title p {
+        margin: 0 auto;
+        width: 298px;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #000;
+        text-align: center; }
+    .yohoContent .putaway .photo {
+      height: 408px; }
+      .yohoContent .putaway .photo .tag {
+        height: 22px; }
+      .yohoContent .putaway .photo .left {
+        width: 222px;
+        height: 386px;
+        margin-right: 10px;
+        text-align: center;
+        line-height: 20px;
+        float: left; }
+        .yohoContent .putaway .photo .left div {
+          height: 298px;
+          outline: 1px solid red; }
+        .yohoContent .putaway .photo .left p {
+          margin-top: 20px;
+          font-size: 12px; }
+        .yohoContent .putaway .photo .left span {
+          font-size: 12px; }
+    .yohoContent .putaway .loading {
+      height: 75px;
+      text-align: center;
+      margin-bottom: 40px; }
+      .yohoContent .putaway .loading a {
+        display: inline-block;
+        color: white;
+        padding: 12px 30px;
+        background: black;
+        margin-top: 32px; }
+        .yohoContent .putaway .loading a :hover {
+          text-decoration: none; }
+
+.feedback {
+  width: 100%;
+  height: 288px;
+  background: #EEEEEE;
+  padding: 1px 0; }
+  .feedback .content {
+    width: 1150px;
+    height: 210px;
+    margin: 20px auto; }
+    .feedback .content .left {
+      width: 370px;
+      height: 210px;
+      background: white;
+      margin-right: 20px;
+      float: left; }
+      .feedback .content .left .one {
+        width: 330px;
+        height: 160px;
+        margin: 30px auto 20px;
+        border-top: 1px solid #DDDDDD;
+        position: relative; }
+        .feedback .content .left .one h2 {
+          font-size: 18px;
+          font-weight: 400;
+          background: white;
+          padding: 0 10px;
+          position: absolute;
+          top: -14px;
+          left: 90px; }
+        .feedback .content .left .one div {
+          width: 100px;
+          height: 130px;
+          border: 1px solid #DDDDDD;
+          margin: 28px 12px 0 0;
+          text-align: center;
+          font-size: 12px;
+          float: left; }
+          .feedback .content .left .one div img {
+            display: inline-block;
+            width: 86px;
+            height: 88px;
+            margin: 8px 6px; }
+    .feedback .content .center {
+      width: 370px;
+      height: 210px;
+      background: white;
+      margin-right: 20px;
+      float: left; }
+      .feedback .content .center .one {
+        width: 330px;
+        height: 160px;
+        margin: 30px auto 20px;
+        border-top: 1px solid #DDDDDD;
+        position: relative; }
+        .feedback .content .center .one h2 {
+          font-size: 18px;
+          font-weight: 400;
+          background: white;
+          padding: 0 10px;
+          position: absolute;
+          top: -14px;
+          left: 119px; }
+        .feedback .content .center .one p {
+          margin-top: 28px;
+          font-size: 12px; }
+        .feedback .content .center .one div {
+          height: 92px;
+          font-size: 12px; }
+          .feedback .content .center .one div span {
+            display: inline-block;
+            width: 164px;
+            height: 24px;
+            line-height: 32px;
+            float: left; }
+            .feedback .content .center .one div span input {
+              vertical-align: middle; }
+        .feedback .content .center .one a {
+          padding: 5px 15px;
+          background: black;
+          font-size: 12px;
+          color: white; }
+    .feedback .content .right {
+      width: 370px;
+      height: 210px;
+      background: white;
+      margin-right: 20px;
+      float: left; }
+      .feedback .content .right .one {
+        width: 330px;
+        height: 160px;
+        margin: 30px auto 20px;
+        border-top: 1px solid #DDDDDD;
+        position: relative; }
+        .feedback .content .right .one h2 {
+          font-size: 18px;
+          font-weight: 400;
+          background: white;
+          padding: 0 10px;
+          position: absolute;
+          top: -14px;
+          left: 90px; }
+        .feedback .content .right .one div {
+          width: 100px;
+          height: 130px;
+          margin: 28px 12px 0 0;
+          border: 1px solid red;
+          float: left; }
+
+.footer {
+  width: 100%;
+  height: 295px;
+  color: #666666;
+  background: #000000;
+  overflow: hidden;
+  font-size: 12px; }
+  .footer a:hover {
+    text-decoration: underline; }
+  .footer .footerContent {
+    width: 1150px;
+    height: 295px;
+    margin: 0 auto; }
+    .footer .footerContent .top {
+      height: 65px;
+      border-bottom: 1px solid #262626; }
+      .footer .footerContent .top .left {
+        width: 135px;
+        height: 28px;
+        margin-top: 19px;
+        font-weight: 700;
+        float: left;
+        margin-right: 60px; }
+        .footer .footerContent .top .left img {
+          display: inline-block;
+          float: left; }
+        .footer .footerContent .top .left .red {
+          color: #e01;
+          display: inline-block;
+          line-height: 30px;
+          margin: 0 5px 0 10px;
+          float: left; }
+        .footer .footerContent .top .left .rgbf {
+          color: white;
+          line-height: 30px; }
+      .footer .footerContent .top .right {
+        width: 240px;
+        height: 30px;
+        float: right;
+        border: 1px solid #262626;
+        margin-top: 17px; }
+        .footer .footerContent .top .right input {
+          border: none;
+          outline: none;
+          width: 200px;
+          height: 28px;
+          color: #666666;
+          padding-left: 10px;
+          background: black; }
+        .footer .footerContent .top .right img {
+          vertical-align: middle; }
+    .footer .footerContent .center {
+      height: 150px;
+      overflow: hidden;
+      margin: 5px 0 10px; }
+      .footer .footerContent .center ul {
+        padding: 0;
+        margin-right: 113px;
+        float: left; }
+        .footer .footerContent .center ul li {
+          list-style: none;
+          line-height: 25px;
+          color: white; }
+          .footer .footerContent .center ul li a {
+            color: #666666; }
+    .footer .footerContent .bottom {
+      height: 64px; }
+      .footer .footerContent .bottom .isc {
+        width: 195px;
+        float: left; }
+        .footer .footerContent .bottom .isc img {
+          padding-right: 5px; }
+      .footer .footerContent .bottom .bottomRight {
+        float: left; }
+        .footer .footerContent .bottom .bottomRight .nav {
+          padding: 0; }
+          .footer .footerContent .bottom .bottomRight .nav a {
+            color: #666666; }
+          .footer .footerContent .bottom .bottomRight .nav span {
+            padding: 0 15px;
+            color: #666666; }
+        .footer .footerContent .bottom .bottomRight p {
+          margin: 0;
+          line-height: 25px; }
+          .footer .footerContent .bottom .bottomRight p a {
+            color: #666666; }

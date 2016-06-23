@@ -6,8 +6,17 @@ module.exports = {
     /**入口文件*/
     entry: {
         common: ["react", "react-dom"],
-        manage: __dirname + "/app/src/js/manage/entry/ManageEntry.js",
-        manageEntry: __dirname + "/app/src/js/manage/entry/ManageMainEntry.js"
+        manage: __dirname + "/app/src/js/manage/entry/RegisterEntry.js",
+        manageEntry: __dirname + "/app/src/js/manage/entry/ManageMainEntry.js",
+        register: __dirname + "/app/src/js/pc/entry/RegisterEntry.js",
+        login: __dirname + "/app/src/js/pc/entry/LoginEntry.js",
+        favor: __dirname + "/app/src/js/pc/entry/FavorEntry.js",
+        commodity: __dirname + "/app/src/js/pc/entry/CommodityEntry.js",
+        index: __dirname + "/app/src/js/pc/entry/IndexEntry.js",
+        buycarEntry: __dirname + "/app/src/js/pc/entry/ShopCarEntry.js",
+        orderFirstEntry: __dirname + "/app/src/js/pc/entry/OrderFirstEntry.js",
+        paymentEntry: __dirname + "/app/src/js/pc/entry/PaymentEntry.js",
+        YoHoPageEntry: __dirname + "/app/src/js/pc/entry/YoHoMainPageEntry.js"
         //common: [__dirname + "/app/src/js/rem.js"]
     },
     /**入口文件输出配置*/

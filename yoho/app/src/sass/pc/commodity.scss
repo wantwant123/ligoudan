@@ -364,6 +364,9 @@ body{
               border: 3px solid #222222;
               float: left;
               margin-top: 20px;
+              img{
+                height: 100%;
+              }
             }
           }
           .size {
@@ -395,7 +398,7 @@ body{
               width: 60px;
               height: 26px;
               //outline: $outline;
-              background-image: url("../../../build/imgs/commodityimg/01288e4be985c3b5a143d703e2aa678aef.jpg");
+              background-image: url("../../imgs/commodityimg/01288e4be985c3b5a143d703e2aa678aef.jpg");
               line-height: 26px;
               color: #999999;
               font-size: 12px;
@@ -418,7 +421,8 @@ body{
               width: 55px;
               height: 25px;
               //outline:$outline;
-              margin-top: 12px;
+              margin-top: -38px;
+              margin-left: 60px;
               float: left;
             }
             .num {
@@ -529,31 +533,31 @@ body{
                 //outline: $outline;
               }
               .weibo{
-                background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+                background-image: url("../../imgs/commodityimg/sprite.share.png");
                 background-position:0 0 ;
               }
               .weixin{
-                background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+                background-image: url("../../imgs/commodityimg/sprite.share.png");
                 background-position:0 -36px ;
               }
               .tweibo{
-                background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+                background-image: url("../../imgs/commodityimg/sprite.share.png");
                 background-position:-18px 0 ;
               }
               .qzone{
-                background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+                background-image: url("../../imgs/commodityimg/sprite.share.png");
                 background-position:-18px -18px ;
               }
               .qq{
-                background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+                background-image: url("../../imgs/commodityimg/sprite.share.png");
                 background-position:-36px 0 ;
               }
               .renren{
-                background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+                background-image: url("../../imgs/commodityimg/sprite.share.png");
                 background-position: 0 -18px;
               }
               .douban{
-                background-image: url("../../../build/imgs/commodityimg/sprite.share.png");
+                background-image: url("../../imgs/commodityimg/sprite.share.png");
                 background-position: -36px -18px;
               }
             }

@@ -133,7 +133,7 @@ header {
     .content .contentTop .contentTop-1 {
       width: 15px;
       height: 15px;
-      background: url("../../../build/imgs/sprite.home.png");
+      background: url("../../imgs/sprite.home.png");
       background-position: -22px -24px;
       margin-top: 10px;
       float: left; }
@@ -156,7 +156,7 @@ header {
     .content .contentLeft .contentLeft-1 {
       width: 183px;
       height: 41px;
-      background: url("../../../build/imgs/ucenter.png") no-repeat;
+      background: url("../../imgs/ucenter.png") no-repeat;
       background-color: #E3E3E3;
       background-position: 12px; }
     .content .contentLeft .contentLeft-2 {
@@ -166,7 +166,7 @@ header {
         width: 111px;
         height: 111px;
         box-shadow: 2px 2px 3px 1px #dcdcdc;
-        background: url("../../../build/imgs/01cae078abe5fe320c88cdf4c220212688.gif") no-repeat;
+        background: url("../../imgs/01cae078abe5fe320c88cdf4c220212688.gif") no-repeat;
         background-size: 111px;
         margin: 19px 36px; }
     .content .contentLeft .contentLeft-3 {
@@ -180,7 +180,7 @@ header {
         .content .contentLeft .contentLeft-3 .contentLeft-3-1 .contentLeft3-1-xb {
           width: 16px;
           height: 16px;
-          background: url("../../../build/imgs/sprite.home.png");
+          background: url("../../imgs/sprite.home.png");
           background-position: -47px 1px;
           margin: 12px;
           float: left; }
@@ -201,7 +201,6 @@ header {
         background-color: #636363; }
   .content .contentRight {
     width: 800px;
-    height: 655px;
     border: 1px solid #E3E3E3;
     float: left;
     margin-left: 6px;
@@ -210,9 +209,20 @@ header {
     .content .contentRight .contentRight-1 {
       width: 800px;
       height: 41px;
-      background: url("../../../build/imgs/favorite.png") no-repeat;
+      background: url("../../imgs/favorite.png") no-repeat;
       background-color: #E3E3E3;
       background-position: 12px; }
+    .content .contentRight .contentRight-11 {
+      width: 800px;
+      height: 41px;
+      background: url("../../imgs/orders.png") no-repeat;
+      background-color: #E3E3E3;
+      background-position: 12px; }
+      .content .contentRight .contentRight-11 p {
+        font-size: 12px;
+        line-height: 41px;
+        text-indent: 130px;
+        font-weight: 900; }
     .content .contentRight .contentRight-2 {
       width: 777px;
       height: 28px;
@@ -284,6 +294,97 @@ header {
         color: #656565;
         float: right;
         margin-right: 10px; }
+    .content .contentRight .contentRight-31 {
+      width: 777px;
+      height: 30px;
+      margin: 10px;
+      background: #E4E4E4;
+      border: 1px solid #dbdbdb; }
+      .content .contentRight .contentRight-31 span {
+        font-size: 12px;
+        line-height: 30px; }
+    .content .contentRight .contentRight-41 {
+      width: 777px;
+      height: 110px;
+      border: 1px solid #dbdbdb;
+      margin: 10px;
+      border-radius: 2px; }
+      .content .contentRight .contentRight-41 .contentRight-41-1 {
+        width: 777px;
+        height: 28px;
+        border-bottom: 1px solid #dbdbdb;
+        background: #E4E4E4; }
+        .content .contentRight .contentRight-41 .contentRight-41-1 span {
+          line-height: 28px;
+          font-size: 12px;
+          margin-left: 10px; }
+      .content .contentRight .contentRight-41 .contentRight-41-2 {
+        width: 468px;
+        height: 82px;
+        float: left; }
+        .content .contentRight .contentRight-41 .contentRight-41-2 .contentRight-41-2-img {
+          width: 50px;
+          height: 60px;
+          margin: 10px 12px;
+          float: left; }
+        .content .contentRight .contentRight-41 .contentRight-41-2 .contentRight-41-2-a {
+          width: 375px;
+          height: 33px;
+          float: left;
+          margin: 30px 5px; }
+          .content .contentRight .contentRight-41 .contentRight-41-2 .contentRight-41-2-a p {
+            font-size: 12px; }
+      .content .contentRight .contentRight-41 .contentRight-41-3 {
+        width: 100px;
+        height: 82px;
+        float: left;
+        border-left: 1px solid #dbdbdb; }
+        .content .contentRight .contentRight-41 .contentRight-41-3 p {
+          font-size: 12px;
+          text-align: center; }
+      .content .contentRight .contentRight-41 .contentRight-41-4 {
+        width: 100px;
+        height: 82px;
+        float: left;
+        border-left: 1px solid #dbdbdb; }
+        .content .contentRight .contentRight-41 .contentRight-41-4 p {
+          text-align: center;
+          font-size: 12px;
+          line-height: 18px;
+          margin-top: 23px;
+          text-indent: 5px;
+          color: #7b7b7b; }
+      .content .contentRight .contentRight-41 .contentRight-41-5 {
+        width: 100px;
+        height: 82px;
+        float: left;
+        border-left: 1px solid #dbdbdb; }
+        .content .contentRight .contentRight-41 .contentRight-41-5 p {
+          text-align: center; }
+        .content .contentRight .contentRight-41 .contentRight-41-5 .on {
+          width: 70px;
+          height: 20px;
+          background: #DE034A;
+          display: inline-block;
+          color: white;
+          line-height: 20px;
+          border-radius: 5px;
+          margin-top: 12px; }
+        .content .contentRight .contentRight-41 .contentRight-41-5 a {
+          color: #6E9DC1;
+          font-size: 12px;
+          text-decoration: none; }
+    .content .contentRight .contentRight-51 {
+      width: 799px;
+      height: 44px;
+      border-top: 1px solid #dbdbdb;
+      background: #F3F3F3; }
+      .content .contentRight .contentRight-51 p {
+        line-height: 44px;
+        font-size: 12px;
+        color: #656565;
+        float: right;
+        margin-right: 10px; }
   .content .serbice {
     width: 305px;
     height: 20px;
@@ -292,11 +393,27 @@ header {
     .content .serbice .serbiceImgs {
       width: 12px;
       height: 12px;
-      background: url("../../../build/imgs/sprite.home.png");
+      background: url("../../imgs/sprite.home.png");
       background-position: 15px -17px;
       float: left;
       margin-top: 4px; }
     .content .serbice span {
+      font-size: 10px;
+      float: right;
+      line-height: 20px; }
+  .content .serbice1 {
+    width: 305px;
+    height: 20px;
+    float: left;
+    margin: 12px 6px; }
+    .content .serbice1 .serbiceImgs1 {
+      width: 12px;
+      height: 12px;
+      background: url("../../imgs/sprite.home.png");
+      background-position: 15px -17px;
+      float: left;
+      margin-top: 4px; }
+    .content .serbice1 span {
       font-size: 10px;
       float: right;
       line-height: 20px; }

@@ -30,7 +30,7 @@
 /******/ 	// "0" means "already loaded"
 /******/ 	// Array means "loading", array contains callbacks
 /******/ 	var installedChunks = {
-/******/ 		0:0
+/******/ 		3:0
 /******/ 	};
 
 /******/ 	// The require function
@@ -76,7 +76,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "" + chunkId + "." + ({"1":"manage","2":"manageEntry"}[chunkId]||chunkId) + ".bunlde.js";
+/******/ 			script.src = __webpack_require__.p + "" + chunkId + "." + ({"0":"YoHoPageEntry","1":"buycarEntry","2":"commodity","4":"favor","5":"index","6":"login","7":"manageEntry","8":"orderFirstEntry","9":"paymentEntry","10":"register"}[chunkId]||chunkId) + ".bunlde.js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};

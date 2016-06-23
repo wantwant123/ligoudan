@@ -1,0 +1,92 @@
+body {
+  font-family: arial,Microsoft YaHei;
+  font-size: 12px; }
+  body a {
+    text-decoration: none; }
+  body a:hover {
+    text-decoration: underline; }
+
+.footer {
+  width: 100%;
+  margin-top: 80px;
+  height: 295px;
+  color: #666666;
+  background: #000000;
+  overflow: hidden; }
+  .footer .footerContent {
+    width: 1150px;
+    height: 295px;
+    margin: 0 auto; }
+    .footer .footerContent .top {
+      height: 65px;
+      border-bottom: 1px solid #262626; }
+      .footer .footerContent .top .left {
+        width: 135px;
+        height: 28px;
+        margin-top: 19px;
+        font-weight: 700;
+        float: left;
+        margin-right: 60px; }
+        .footer .footerContent .top .left img {
+          display: inline-block;
+          float: left; }
+        .footer .footerContent .top .left .red {
+          color: #e01;
+          display: inline-block;
+          line-height: 30px;
+          margin: 0 5px 0 10px;
+          float: left; }
+        .footer .footerContent .top .left .rgbf {
+          color: white;
+          line-height: 30px; }
+      .footer .footerContent .top .right {
+        width: 240px;
+        height: 30px;
+        float: right;
+        border: 1px solid #262626;
+        margin-top: 17px; }
+        .footer .footerContent .top .right input {
+          border: none;
+          outline: none;
+          width: 200px;
+          height: 28px;
+          color: #666666;
+          padding-left: 10px;
+          background: black; }
+        .footer .footerContent .top .right img {
+          vertical-align: middle; }
+    .footer .footerContent .center {
+      height: 150px;
+      overflow: hidden;
+      margin: 5px 0 10px; }
+      .footer .footerContent .center ul {
+        padding: 0;
+        margin-right: 113px;
+        float: left; }
+        .footer .footerContent .center ul li {
+          list-style: none;
+          line-height: 25px;
+          color: white; }
+          .footer .footerContent .center ul li a {
+            color: #666666; }
+    .footer .footerContent .bottom {
+      height: 64px; }
+      .footer .footerContent .bottom .isc {
+        width: 195px;
+        float: left; }
+        .footer .footerContent .bottom .isc img {
+          padding-right: 5px; }
+      .footer .footerContent .bottom .bottomRight {
+        float: left; }
+        .footer .footerContent .bottom .bottomRight .nav {
+          padding: 0; }
+          .footer .footerContent .bottom .bottomRight .nav a {
+            color: #666666; }
+          .footer .footerContent .bottom .bottomRight .nav span {
+            padding: 0 15px;
+            color: #666666; }
+        .footer .footerContent .bottom .bottomRight p {
+          margin: 0;
+          line-height: 25px; }
+          .footer .footerContent .bottom .bottomRight p a {
+            color: #666666; }
